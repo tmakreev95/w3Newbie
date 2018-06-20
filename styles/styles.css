@@ -131,15 +131,18 @@ img{
     .social{
         font-size: 200%;
     }
-}
-@media (max-width: 260px){
     #home{
-        padding-top: 20%;
+        padding-top: 66px;
     }
     #about, #features, #portfolio, #connect{
         padding-top: 5%;
     }
     .navbar-brand{
         width: 60%;
+    }
+}
+@media (max-width: 290px){
+    h1{
+        font-size: 150%;
     }
 }
