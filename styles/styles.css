@@ -132,18 +132,7 @@ img{
         font-size: 200%;
     }
 }
-@media (min-width: 280px){
-    #home{
-        padding-top: 20%;
-    }
-    #about, #features, #portfolio, #connect{
-        padding-top: 5%;
-    }
-    .navbar-brand{
-        width: 80%;
-    }
-}
-@media (min-width: 260px){
+@media (max-width: 260px){
     #home{
         padding-top: 20%;
     }
